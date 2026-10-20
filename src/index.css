@@ -1,0 +1,169 @@
+
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  background: #080e0f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #080e0f;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: #80e9ad;
+  color: #07100b;
+}
+
+.portfolio-shell {
+  --page-bg: #080e0f;
+  --surface: #0e1517;
+  --surface-raised: #11191b;
+  --heading: #edf4f1;
+  --body-text: #c5d0d2;
+  --muted: #89969a;
+  --border: rgba(185, 210, 205, 0.12);
+  --accent: #80e9ad;
+  --accent-soft: #a3f3c3;
+  --card-tag: #192328;
+
+  min-height: 100vh;
+  overflow: clip;
+  color: var(--heading);
+  background:
+    radial-gradient(
+      ellipse at 72% 12%,
+      rgba(43, 107, 75, 0.1),
+      transparent 32%
+    ),
+    var(--page-bg);
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.portfolio-light {
+  --page-bg: #f5f8f5;
+  --surface: #ffffff;
+  --surface-raised: #edf3ee;
+  --heading: #17241c;
+  --body-text: #34483b;
+  --muted: #65766a;
+  --border: rgba(35, 68, 47, 0.16);
+  --accent: #247449;
+  --accent-soft: #1d6841;
+  --card-tag: #e6eee8;
+
+  background:
+    radial-gradient(
+      ellipse at 72% 12%,
+      rgba(80, 170, 112, 0.12),
+      transparent 35%
+    ),
+    var(--page-bg);
+}
+
+.portfolio-shell section {
+  scroll-margin-top: 82px;
+}
+
+.portfolio-shell img {
+  max-width: 100%;
+}
+
+.portfolio-shell ::-webkit-scrollbar {
+  width: 7px;
+}
+
+.portfolio-shell ::-webkit-scrollbar-track {
+  background: var(--page-bg);
+}
+
+.portfolio-shell ::-webkit-scrollbar-thumb {
+  background: #527c63;
+  border-radius: 20px;
+}
+
+.portfolio-shell .theme-heading {
+  color: var(--heading);
+}
+
+.portfolio-shell .theme-body {
+  color: var(--body-text);
+}
+
+.portfolio-shell .theme-muted {
+  color: var(--muted);
+}
+
+.portfolio-shell .theme-surface {
+  background: var(--surface);
+}
+
+.portfolio-shell .theme-raised {
+  background: var(--surface-raised);
+}
+
+.portfolio-shell .theme-border {
+  border-color: var(--border);
+}
+
+.portfolio-shell .theme-accent {
+  color: var(--accent);
+}
+
+.portfolio-shell .theme-tag {
+  background: var(--card-tag);
+  color: var(--body-text);
+}
+
+.portfolio-shell .theme-nav {
+  background: color-mix(in srgb, var(--page-bg) 92%, transparent);
+  border-color: var(--border);
+}
+
+.portfolio-light .theme-dark-text {
+  color: #17241c;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
