@@ -105,9 +105,9 @@ export const projects = [
     description:
       "A personal website showcasing my skills, projects, learning journey and contact information.",
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85",
+      "/public/Screenshot 2026-10-20 123531.png",
     tags: ["React", "Tailwind CSS", "Responsive"],
-    github: "",
+    github: "https://github.com/fayas122/Portfolio",
     demo: "",
   },
 ];
