@@ -36,7 +36,7 @@ export const personalInfo = {
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
   instagram: "https://instagram.com/",
-  resume: "/Muhammed Fayas RP.pdf",
+  resume: "/Muhammed Fayas RP (1).pdf",
   profileImage:
     "/Hero (2).png",
 };
