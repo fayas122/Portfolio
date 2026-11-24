@@ -83,7 +83,7 @@ export const projects = [
     description:
       "A bamboo products e-commerce platform with product browsing, cart, wishlist and user accounts.",
     image:
-      "/public/Screenshot 2026-10-20 115853.png",
+      "/Screenshot 2026-10-20 115853.png",
     tags: ["React", "Redux Toolkit", "TanStack Query", "Tailwind"],
     github: "https://github.com/fayas122/ecommerce",
     demo: "",
@@ -94,7 +94,7 @@ export const projects = [
     description:
       "A modern shopping experience with product filters, cart management and responsive layouts.",
     image:
-      "/public/Screenshot 2026-10-20 120646.png",
+      "/Screenshot 2026-10-20 120646.png",
     tags: ["React", "JavaScript", "CSS"],
     github: "https://github.com/fayas122/machine-task",
     demo: "",
@@ -105,7 +105,7 @@ export const projects = [
     description:
       "A personal website showcasing my skills, projects, learning journey and contact information.",
     image:
-      "/public/Screenshot 2026-10-20 123531.png",
+      "/Screenshot 2026-10-20 123531.png",
     tags: ["React", "Tailwind CSS", "Responsive"],
     github: "https://github.com/fayas122/Portfolio",
     demo: "",
