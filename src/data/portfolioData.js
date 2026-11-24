@@ -38,7 +38,7 @@ export const personalInfo = {
   instagram: "https://instagram.com/",
   resume: "/Muhammed Fayas RP.pdf",
   profileImage:
-    "/public/Hero (2).png",
+    "/Hero (2).png",
 };
 
 export const navLinks = [
